@@ -19,7 +19,7 @@ def main():
     altura = float(input("Digite sua altura em metros: "))
     imc = calcular_imc(peso, altura)
     classificacao = classificar_imc(imc)
-    print(f"Seu IMC é: {imc:.2f} - {classificacao}")
+    input(f"Seu IMC é: {imc:.2f} - {classificacao}")
 
 if __name__ == "__main__":
     main()
